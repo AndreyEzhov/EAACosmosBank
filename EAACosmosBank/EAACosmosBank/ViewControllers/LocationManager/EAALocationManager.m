@@ -37,8 +37,8 @@
 -(NSString*) distanceCounter:(CLLocationCoordinate2D) coord {
     
     NSString* result;
-    
-    if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
+ 
+    if ([CLLocationManager authorizationStatus] != kCLAuthorizationStatusAuthorizedWhenInUse) {
         
         result = @"?";
         

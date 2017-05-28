@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "EAABankDataSource.h"
 #import "EAANetworkManager.h"
-#import "EAABanksReader.h"
+#import "EAAConstants.h"
 
 @interface EAAHub : NSObject
 

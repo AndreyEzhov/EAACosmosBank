@@ -11,12 +11,13 @@
 
 @implementation EAANetworkManager
 
--(void) getAllBanks:(void (^)(id responseObject, NSError *error))completionHandler {
+-(void) get:(NSString*) url
+onCompletion:(void (^)(id responseObject, NSError *error)) completionHandler {
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
-    NSURL *URL = [NSURL URLWithString:@"http://gymn652.ru/tmp/unicorn.txt-2.json"];
+    NSURL *URL = [NSURL URLWithString:url];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:URL
                                                   cachePolicy:NSURLRequestReloadIgnoringCacheData
                                               timeoutInterval:20];

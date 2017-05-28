@@ -22,7 +22,16 @@
                             <outlet property="delegate" destination="b77-pV-NXA" id="sqJ-Cw-Kru"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Банки" id="maC-OC-UZW"/>
+                    <navigationItem key="navigationItem" title="Банки" id="maC-OC-UZW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="7qn-T4-aG8">
+                            <connections>
+                                <action selector="refreshAction:" destination="b77-pV-NXA" id="yAe-1e-B0T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="refreshButton" destination="7qn-T4-aG8" id="XbR-hv-BPP"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S0Q-WV-PSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

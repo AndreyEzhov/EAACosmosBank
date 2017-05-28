@@ -57,6 +57,7 @@
 		120842651EDAE38300B875D0 /* EAABankUnitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAABankUnitCell.xib; sourceTree = "<group>"; };
 		120842671EDAE38300B875D0 /* EAALocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAALocationManager.h; sourceTree = "<group>"; };
 		120842681EDAE38300B875D0 /* EAALocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAALocationManager.m; sourceTree = "<group>"; };
+		120842761EDB224A00B875D0 /* EAAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAConstants.h; sourceTree = "<group>"; };
 		31B79A01165F219BD7E2D020 /* Pods-EAACosmosBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAACosmosBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank.debug.xcconfig"; sourceTree = "<group>"; };
 		50437403CCD94717AA3155B8 /* Pods-EAACosmosBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAACosmosBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank.release.xcconfig"; sourceTree = "<group>"; };
 		8153E655417D1DE86479C5B5 /* libPods-EAACosmosBank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EAACosmosBank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +113,7 @@
 				120842421EDAE33800B875D0 /* LaunchScreen.storyboard */,
 				120842451EDAE33800B875D0 /* Info.plist */,
 				120842341EDAE33800B875D0 /* Supporting Files */,
+				120842761EDB224A00B875D0 /* EAAConstants.h */,
 			);
 			path = EAACosmosBank;
 			sourceTree = "<group>";
