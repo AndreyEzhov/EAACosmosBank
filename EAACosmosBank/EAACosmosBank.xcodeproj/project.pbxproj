@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120842361EDAE33800B875D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842351EDAE33800B875D0 /* main.m */; };
+		120842391EDAE33800B875D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842381EDAE33800B875D0 /* AppDelegate.m */; };
+		1208423F1EDAE33800B875D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1208423D1EDAE33800B875D0 /* Main.storyboard */; };
+		120842411EDAE33800B875D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120842401EDAE33800B875D0 /* Assets.xcassets */; };
+		120842441EDAE33800B875D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120842421EDAE33800B875D0 /* LaunchScreen.storyboard */; };
+		120842691EDAE38300B875D0 /* EAABankDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208424E1EDAE38300B875D0 /* EAABankDataSource.m */; };
+		1208426A1EDAE38300B875D0 /* EAAHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842501EDAE38300B875D0 /* EAAHub.m */; };
+		1208426B1EDAE38300B875D0 /* EAARealmBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842551EDAE38300B875D0 /* EAARealmBank.m */; };
+		1208426C1EDAE38300B875D0 /* EAARealmStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842571EDAE38300B875D0 /* EAARealmStorage.m */; };
+		1208426D1EDAE38300B875D0 /* EAANetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208425A1EDAE38300B875D0 /* EAANetworkManager.m */; };
+		1208426E1EDAE38300B875D0 /* EAABankRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208425D1EDAE38300B875D0 /* EAABankRecord.m */; };
+		1208426F1EDAE38300B875D0 /* EAABanksReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1208425F1EDAE38300B875D0 /* EAABanksReader.m */; };
+		120842701EDAE38300B875D0 /* EAABankTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842621EDAE38300B875D0 /* EAABankTableViewController.m */; };
+		120842711EDAE38300B875D0 /* EAABankUnitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842641EDAE38300B875D0 /* EAABankUnitCell.m */; };
+		120842721EDAE38300B875D0 /* EAABankUnitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120842651EDAE38300B875D0 /* EAABankUnitCell.xib */; };
+		120842731EDAE38300B875D0 /* EAALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 120842681EDAE38300B875D0 /* EAALocationManager.m */; };
+		FDFA47E9F5A187B25F7200AC /* libPods-EAACosmosBank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8153E655417D1DE86479C5B5 /* libPods-EAACosmosBank.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120842311EDAE33800B875D0 /* EAACosmosBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAACosmosBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120842351EDAE33800B875D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120842371EDAE33800B875D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		120842381EDAE33800B875D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1208423E1EDAE33800B875D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120842401EDAE33800B875D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120842431EDAE33800B875D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		120842451EDAE33800B875D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1208424D1EDAE38300B875D0 /* EAABankDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAABankDataSource.h; sourceTree = "<group>"; };
+		1208424E1EDAE38300B875D0 /* EAABankDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAABankDataSource.m; sourceTree = "<group>"; };
+		1208424F1EDAE38300B875D0 /* EAAHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAHub.h; sourceTree = "<group>"; };
+		120842501EDAE38300B875D0 /* EAAHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAHub.m; sourceTree = "<group>"; };
+		120842521EDAE38300B875D0 /* EAALocalStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAALocalStorageProtocol.h; sourceTree = "<group>"; };
+		120842541EDAE38300B875D0 /* EAARealmBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAARealmBank.h; sourceTree = "<group>"; };
+		120842551EDAE38300B875D0 /* EAARealmBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAARealmBank.m; sourceTree = "<group>"; };
+		120842561EDAE38300B875D0 /* EAARealmStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAARealmStorage.h; sourceTree = "<group>"; };
+		120842571EDAE38300B875D0 /* EAARealmStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAARealmStorage.m; sourceTree = "<group>"; };
+		120842591EDAE38300B875D0 /* EAANetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAANetworkManager.h; sourceTree = "<group>"; };
+		1208425A1EDAE38300B875D0 /* EAANetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAANetworkManager.m; sourceTree = "<group>"; };
+		1208425C1EDAE38300B875D0 /* EAABankRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAABankRecord.h; sourceTree = "<group>"; };
+		1208425D1EDAE38300B875D0 /* EAABankRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAABankRecord.m; sourceTree = "<group>"; };
+		1208425E1EDAE38300B875D0 /* EAABanksReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAABanksReader.h; sourceTree = "<group>"; };
+		1208425F1EDAE38300B875D0 /* EAABanksReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAABanksReader.m; sourceTree = "<group>"; };
+		120842611EDAE38300B875D0 /* EAABankTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAABankTableViewController.h; sourceTree = "<group>"; };
+		120842621EDAE38300B875D0 /* EAABankTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAABankTableViewController.m; sourceTree = "<group>"; };
+		120842631EDAE38300B875D0 /* EAABankUnitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAABankUnitCell.h; sourceTree = "<group>"; };
+		120842641EDAE38300B875D0 /* EAABankUnitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAABankUnitCell.m; sourceTree = "<group>"; };
+		120842651EDAE38300B875D0 /* EAABankUnitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAABankUnitCell.xib; sourceTree = "<group>"; };
+		120842671EDAE38300B875D0 /* EAALocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAALocationManager.h; sourceTree = "<group>"; };
+		120842681EDAE38300B875D0 /* EAALocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAALocationManager.m; sourceTree = "<group>"; };
+		31B79A01165F219BD7E2D020 /* Pods-EAACosmosBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAACosmosBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank.debug.xcconfig"; sourceTree = "<group>"; };
+		50437403CCD94717AA3155B8 /* Pods-EAACosmosBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAACosmosBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank.release.xcconfig"; sourceTree = "<group>"; };
+		8153E655417D1DE86479C5B5 /* libPods-EAACosmosBank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EAACosmosBank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1208422E1EDAE33800B875D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA47E9F5A187B25F7200AC /* libPods-EAACosmosBank.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E60BE7ABB869DB9DC549C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8153E655417D1DE86479C5B5 /* libPods-EAACosmosBank.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		120842281EDAE33800B875D0 = {
+			isa = PBXGroup;
+			children = (
+				120842331EDAE33800B875D0 /* EAACosmosBank */,
+				120842321EDAE33800B875D0 /* Products */,
+				95D4FFE7CEC5B2B19C8B707E /* Pods */,
+				0E60BE7ABB869DB9DC549C7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		120842321EDAE33800B875D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120842311EDAE33800B875D0 /* EAACosmosBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120842331EDAE33800B875D0 /* EAACosmosBank */ = {
+			isa = PBXGroup;
+			children = (
+				1208424B1EDAE38300B875D0 /* Hub */,
+				120842601EDAE38300B875D0 /* ViewControllers */,
+				120842371EDAE33800B875D0 /* AppDelegate.h */,
+				120842381EDAE33800B875D0 /* AppDelegate.m */,
+				1208423D1EDAE33800B875D0 /* Main.storyboard */,
+				120842401EDAE33800B875D0 /* Assets.xcassets */,
+				120842421EDAE33800B875D0 /* LaunchScreen.storyboard */,
+				120842451EDAE33800B875D0 /* Info.plist */,
+				120842341EDAE33800B875D0 /* Supporting Files */,
+			);
+			path = EAACosmosBank;
+			sourceTree = "<group>";
+		};
+		120842341EDAE33800B875D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				120842351EDAE33800B875D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1208424B1EDAE38300B875D0 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				1208424C1EDAE38300B875D0 /* DataSource */,
+				1208424F1EDAE38300B875D0 /* EAAHub.h */,
+				120842501EDAE38300B875D0 /* EAAHub.m */,
+				120842511EDAE38300B875D0 /* LocalStorage */,
+				120842581EDAE38300B875D0 /* Network */,
+				1208425B1EDAE38300B875D0 /* Reader */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		1208424C1EDAE38300B875D0 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1208424D1EDAE38300B875D0 /* EAABankDataSource.h */,
+				1208424E1EDAE38300B875D0 /* EAABankDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		120842511EDAE38300B875D0 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				120842521EDAE38300B875D0 /* EAALocalStorageProtocol.h */,
+				120842531EDAE38300B875D0 /* RealmStorage */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		120842531EDAE38300B875D0 /* RealmStorage */ = {
+			isa = PBXGroup;
+			children = (
+				120842541EDAE38300B875D0 /* EAARealmBank.h */,
+				120842551EDAE38300B875D0 /* EAARealmBank.m */,
+				120842561EDAE38300B875D0 /* EAARealmStorage.h */,
+				120842571EDAE38300B875D0 /* EAARealmStorage.m */,
+			);
+			path = RealmStorage;
+			sourceTree = "<group>";
+		};
+		120842581EDAE38300B875D0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				120842591EDAE38300B875D0 /* EAANetworkManager.h */,
+				1208425A1EDAE38300B875D0 /* EAANetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1208425B1EDAE38300B875D0 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				1208425C1EDAE38300B875D0 /* EAABankRecord.h */,
+				1208425D1EDAE38300B875D0 /* EAABankRecord.m */,
+				1208425E1EDAE38300B875D0 /* EAABanksReader.h */,
+				1208425F1EDAE38300B875D0 /* EAABanksReader.m */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		120842601EDAE38300B875D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				120842611EDAE38300B875D0 /* EAABankTableViewController.h */,
+				120842621EDAE38300B875D0 /* EAABankTableViewController.m */,
+				120842631EDAE38300B875D0 /* EAABankUnitCell.h */,
+				120842641EDAE38300B875D0 /* EAABankUnitCell.m */,
+				120842651EDAE38300B875D0 /* EAABankUnitCell.xib */,
+				120842661EDAE38300B875D0 /* LocationManager */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		120842661EDAE38300B875D0 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				120842671EDAE38300B875D0 /* EAALocationManager.h */,
+				120842681EDAE38300B875D0 /* EAALocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		95D4FFE7CEC5B2B19C8B707E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31B79A01165F219BD7E2D020 /* Pods-EAACosmosBank.debug.xcconfig */,
+				50437403CCD94717AA3155B8 /* Pods-EAACosmosBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120842301EDAE33800B875D0 /* EAACosmosBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120842481EDAE33800B875D0 /* Build configuration list for PBXNativeTarget "EAACosmosBank" */;
+			buildPhases = (
+				C6ABCFFD1F3CB153D828F6F4 /* [CP] Check Pods Manifest.lock */,
+				1208422D1EDAE33800B875D0 /* Sources */,
+				1208422E1EDAE33800B875D0 /* Frameworks */,
+				1208422F1EDAE33800B875D0 /* Resources */,
+				14EE7984A72B780D5EB7E756 /* [CP] Embed Pods Frameworks */,
+				6E2E1B11010673807FD7C402 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAACosmosBank;
+			productName = EAACosmosBank;
+			productReference = 120842311EDAE33800B875D0 /* EAACosmosBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120842291EDAE33800B875D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Андрей Ежов";
+				TargetAttributes = {
+					120842301EDAE33800B875D0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6PJ2XVG4Y2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1208422C1EDAE33800B875D0 /* Build configuration list for PBXProject "EAACosmosBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 120842281EDAE33800B875D0;
+			productRefGroup = 120842321EDAE33800B875D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120842301EDAE33800B875D0 /* EAACosmosBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1208422F1EDAE33800B875D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120842441EDAE33800B875D0 /* LaunchScreen.storyboard in Resources */,
+				120842411EDAE33800B875D0 /* Assets.xcassets in Resources */,
+				1208423F1EDAE33800B875D0 /* Main.storyboard in Resources */,
+				120842721EDAE38300B875D0 /* EAABankUnitCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EE7984A72B780D5EB7E756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2E1B11010673807FD7C402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EAACosmosBank/Pods-EAACosmosBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6ABCFFD1F3CB153D828F6F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1208422D1EDAE33800B875D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120842691EDAE38300B875D0 /* EAABankDataSource.m in Sources */,
+				120842701EDAE38300B875D0 /* EAABankTableViewController.m in Sources */,
+				1208426C1EDAE38300B875D0 /* EAARealmStorage.m in Sources */,
+				1208426A1EDAE38300B875D0 /* EAAHub.m in Sources */,
+				1208426D1EDAE38300B875D0 /* EAANetworkManager.m in Sources */,
+				120842711EDAE38300B875D0 /* EAABankUnitCell.m in Sources */,
+				120842731EDAE38300B875D0 /* EAALocationManager.m in Sources */,
+				1208426F1EDAE38300B875D0 /* EAABanksReader.m in Sources */,
+				1208426E1EDAE38300B875D0 /* EAABankRecord.m in Sources */,
+				120842391EDAE33800B875D0 /* AppDelegate.m in Sources */,
+				1208426B1EDAE38300B875D0 /* EAARealmBank.m in Sources */,
+				120842361EDAE33800B875D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1208423D1EDAE33800B875D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1208423E1EDAE33800B875D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120842421EDAE33800B875D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120842431EDAE33800B875D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120842461EDAE33800B875D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		120842471EDAE33800B875D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120842491EDAE33800B875D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B79A01165F219BD7E2D020 /* Pods-EAACosmosBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PJ2XVG4Y2;
+				INFOPLIST_FILE = EAACosmosBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.EAACosmosBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1208424A1EDAE33800B875D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50437403CCD94717AA3155B8 /* Pods-EAACosmosBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PJ2XVG4Y2;
+				INFOPLIST_FILE = EAACosmosBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.EAACosmosBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1208422C1EDAE33800B875D0 /* Build configuration list for PBXProject "EAACosmosBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120842461EDAE33800B875D0 /* Debug */,
+				120842471EDAE33800B875D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120842481EDAE33800B875D0 /* Build configuration list for PBXNativeTarget "EAACosmosBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120842491EDAE33800B875D0 /* Debug */,
+				1208424A1EDAE33800B875D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120842291EDAE33800B875D0 /* Project object */;
+}

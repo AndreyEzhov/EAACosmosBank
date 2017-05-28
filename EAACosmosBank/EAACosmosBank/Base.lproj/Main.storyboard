@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="23L-S4-Dwu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Банки-->
+        <scene sceneID="Vob-Q5-mSG">
+            <objects>
+                <tableViewController id="b77-pV-NXA" customClass="EAABankTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TWS-V9-YoM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="b77-pV-NXA" id="JoD-Ke-3Di"/>
+                            <outlet property="delegate" destination="b77-pV-NXA" id="sqJ-Cw-Kru"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Банки" id="maC-OC-UZW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S0Q-WV-PSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="108"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Al5-sj-0Rq">
+            <objects>
+                <navigationController id="23L-S4-Dwu" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bwp-mB-ANy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="b77-pV-NXA" kind="relationship" relationship="rootViewController" id="7Em-Fa-OjS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCu-NQ-V3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335" y="108"/>
+        </scene>
+    </scenes>
+</document>
