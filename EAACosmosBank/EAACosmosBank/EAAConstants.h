@@ -9,6 +9,7 @@
 #ifndef EAAConstants_h
 #define EAAConstants_h
 
+
 #define GET_ALL_BANKS_URL @"http://gymn652.ru/tmp/unicorn.txt-2.json"
 
 
